@@ -1,0 +1,22 @@
+{
+  "development_steps": [
+    {
+      "name": "dev step 1",
+      "description": "description of dev step 1 here",
+      "commit": "bac31f61d13e10747e2f9131f8346d34f41bc42f",
+      "hporesults": "hporesults/step1.json"
+    },
+    {
+      "name": "dev step 2",
+      "description": "description of dev step 2 here",
+      "commit": "506505ece11bcbe22818661f419140ab9dfd7750",
+      "hporesults": "hporesults/step1.json"
+    },
+    {
+      "name": "dev step 3",
+      "description": "description of dev step 3 here",
+      "commit": "2d13e99d90d176e64fb0fcb1047d5ec08ccb3c5d",
+      "hporesults": "hporesults/step3.json"
+    }
+  ]
+}

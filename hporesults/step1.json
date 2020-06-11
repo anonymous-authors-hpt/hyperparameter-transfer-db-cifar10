@@ -1,0 +1,764 @@
+{
+    "configspace": {
+        "weight_decay": {
+            "lower": 1e-07,
+            "upper": 0.001,
+            "log": true,
+            "type": "float"
+        },
+        "momentum": {
+            "lower": 0,
+            "upper": 0.99,
+            "type": "float"
+        },
+        "learning_rate": {
+            "lower": 0.0001,
+            "upper": 1,
+            "log": true,
+            "type": "float"
+        },
+        "batch": {
+            "lower": 64,
+            "upper": 256,
+            "log": true,
+            "type": "integer"
+        },
+        "breadth": {
+            "lower": 0.5,
+            "upper": 5,
+            "type": "float"
+        },
+        "num_blocks": {
+            "lower": 1,
+            "upper": 6,
+            "type": "integer"
+        },
+        "stride_after_stem": {
+            "lower": 0,
+            "upper": 1,
+            "type": "integer"
+        },
+        "first_conv_kernel": {
+            "lower": 0,
+            "upper": 1,
+            "type": "integer"
+        }
+    },
+    "trials": [
+        {
+            "config": {
+                "batch": 102,
+                "breadth": 4.385147097487009,
+                "first_conv_kernel": 0,
+                "learning_rate": 0.3555471693228904,
+                "momentum": 0.8614396287954992,
+                "num_blocks": 5,
+                "stride_after_stem": 1,
+                "weight_decay": 1.9719253492306226e-06
+            },
+            "loss": 0.07007545535847293
+        },
+        {
+            "config": {
+                "batch": 92,
+                "breadth": 2.4996377115623334,
+                "first_conv_kernel": 1,
+                "learning_rate": 0.08394952967656842,
+                "momentum": 0.8650791356119464,
+                "num_blocks": 4,
+                "stride_after_stem": 1,
+                "weight_decay": 1.609913805321809e-07
+            },
+            "loss": 0.07931486946163757
+        },
+        {
+            "config": {
+                "batch": 162,
+                "breadth": 2.369117232638109,
+                "first_conv_kernel": 0,
+                "learning_rate": 0.6123807952757394,
+                "momentum": 0.21699255287953523,
+                "num_blocks": 3,
+                "stride_after_stem": 0,
+                "weight_decay": 2.7725585069990566e-05
+            },
+            "loss": 0.064652366073508
+        },
+        {
+            "config": {
+                "batch": 106,
+                "breadth": 0.6588411198961582,
+                "first_conv_kernel": 0,
+                "learning_rate": 0.0011333068746727129,
+                "momentum": 0.677022950909577,
+                "num_blocks": 1,
+                "stride_after_stem": 0,
+                "weight_decay": 1.3381386348416514e-06
+            },
+            "loss": 0.2873944755186114
+        },
+        {
+            "config": {
+                "batch": 167,
+                "breadth": 2.1502781801317337,
+                "first_conv_kernel": 1,
+                "learning_rate": 0.0002542522102290144,
+                "momentum": 0.29734775429828425,
+                "num_blocks": 5,
+                "stride_after_stem": 1,
+                "weight_decay": 0.0001523265329716434
+            },
+            "loss": 0.42294226917955613
+        },
+        {
+            "config": {
+                "batch": 177,
+                "breadth": 3.2026209282633507,
+                "first_conv_kernel": 0,
+                "learning_rate": 0.04893297305736483,
+                "momentum": 0.731434756735506,
+                "num_blocks": 5,
+                "stride_after_stem": 1,
+                "weight_decay": 1.249006561501557e-06
+            },
+            "loss": 0.07335854102583494
+        },
+        {
+            "config": {
+                "batch": 84,
+                "breadth": 3.041361220373905,
+                "first_conv_kernel": 0,
+                "learning_rate": 0.0002195873109296295,
+                "momentum": 0.2328863830274561,
+                "num_blocks": 3,
+                "stride_after_stem": 0,
+                "weight_decay": 1.6605614854448176e-06
+            },
+            "loss": 0.303571417927742
+        },
+        {
+            "config": {
+                "batch": 126,
+                "breadth": 1.163148317342734,
+                "first_conv_kernel": 1,
+                "learning_rate": 0.005214220434000276,
+                "momentum": 0.22623200129063079,
+                "num_blocks": 1,
+                "stride_after_stem": 0,
+                "weight_decay": 0.0001489571829206739
+            },
+            "loss": 0.20510271688302362
+        },
+        {
+            "config": {
+                "batch": 147,
+                "breadth": 2.8138940716951955,
+                "first_conv_kernel": 0,
+                "learning_rate": 0.03372369855935012,
+                "momentum": 0.5070120612443832,
+                "num_blocks": 2,
+                "stride_after_stem": 0,
+                "weight_decay": 3.06415704262916e-07
+            },
+            "loss": 0.0841836871170416
+        },
+        {
+            "config": {
+                "batch": 116,
+                "breadth": 2.41754085703422,
+                "first_conv_kernel": 0,
+                "learning_rate": 0.004405803397387952,
+                "momentum": 0.4701563638261767,
+                "num_blocks": 2,
+                "stride_after_stem": 0,
+                "weight_decay": 0.0002550406794742537
+            },
+            "loss": 0.11610300265825713
+        },
+        {
+            "config": {
+                "batch": 97,
+                "breadth": 1.7431787909924363,
+                "first_conv_kernel": 0,
+                "learning_rate": 0.1303830254194746,
+                "momentum": 0.713883278919264,
+                "num_blocks": 6,
+                "stride_after_stem": 0,
+                "weight_decay": 0.0003720592498026503
+            },
+            "loss": 0.051271937547191504
+        },
+        {
+            "config": {
+                "batch": 74,
+                "breadth": 3.617752285804637,
+                "first_conv_kernel": 1,
+                "learning_rate": 0.09808734797678206,
+                "momentum": 0.8832257190191871,
+                "num_blocks": 6,
+                "stride_after_stem": 0,
+                "weight_decay": 1.1289215879750446e-06
+            },
+            "loss": 0.05982199020502044
+        },
+        {
+            "config": {
+                "batch": 107,
+                "breadth": 3.7700423474835074,
+                "first_conv_kernel": 0,
+                "learning_rate": 0.049403396566935306,
+                "momentum": 0.8255586254534986,
+                "num_blocks": 6,
+                "stride_after_stem": 0,
+                "weight_decay": 1.8139127510826256e-05
+            },
+            "loss": 0.061055125897390816
+        },
+        {
+            "config": {
+                "batch": 78,
+                "breadth": 2.5330031351006355,
+                "first_conv_kernel": 0,
+                "learning_rate": 0.0001684128701279058,
+                "momentum": 0.968334119640772,
+                "num_blocks": 2,
+                "stride_after_stem": 0,
+                "weight_decay": 0.0006974002685713258
+            },
+            "loss": 0.11219334292721439
+        },
+        {
+            "config": {
+                "batch": 233,
+                "breadth": 0.649156980849879,
+                "first_conv_kernel": 1,
+                "learning_rate": 0.05567236455744997,
+                "momentum": 0.18896043479972013,
+                "num_blocks": 3,
+                "stride_after_stem": 1,
+                "weight_decay": 9.946674604379456e-07
+            },
+            "loss": 0.14382398357758153
+        },
+        {
+            "config": {
+                "batch": 82,
+                "breadth": 1.9546339002541604,
+                "first_conv_kernel": 1,
+                "learning_rate": 0.0002715923359913938,
+                "momentum": 0.9313621929698152,
+                "num_blocks": 4,
+                "stride_after_stem": 0,
+                "weight_decay": 0.0002458881738371505
+            },
+            "loss": 0.12239855930611898
+        },
+        {
+            "config": {
+                "batch": 172,
+                "breadth": 0.7082162698294248,
+                "first_conv_kernel": 1,
+                "learning_rate": 0.8346341013148756,
+                "momentum": 0.41074697991689024,
+                "num_blocks": 2,
+                "stride_after_stem": 0,
+                "weight_decay": 2.7676878572596894e-06
+            },
+            "loss": 0.11717082943235124
+        },
+        {
+            "config": {
+                "batch": 156,
+                "breadth": 0.7709787955928487,
+                "first_conv_kernel": 1,
+                "learning_rate": 0.3113015653442478,
+                "momentum": 0.7998199584467827,
+                "num_blocks": 2,
+                "stride_after_stem": 1,
+                "weight_decay": 3.3414610249588627e-06
+            },
+            "loss": 0.13686169874973786
+        },
+        {
+            "config": {
+                "batch": 122,
+                "breadth": 4.045758374507131,
+                "first_conv_kernel": 1,
+                "learning_rate": 0.9032315665209341,
+                "momentum": 0.37107409774443506,
+                "num_blocks": 5,
+                "stride_after_stem": 0,
+                "weight_decay": 0.0009208503865980501
+            },
+            "loss": 0.04771987557411195
+        },
+        {
+            "config": {
+                "batch": 85,
+                "breadth": 1.5141164278568977,
+                "first_conv_kernel": 0,
+                "learning_rate": 0.016481101872337596,
+                "momentum": 0.36176617327047145,
+                "num_blocks": 4,
+                "stride_after_stem": 0,
+                "weight_decay": 2.313026956554146e-05
+            },
+            "loss": 0.08889808957005896
+        },
+        {
+            "config": {
+                "batch": 101,
+                "breadth": 4.707096243389112,
+                "first_conv_kernel": 1,
+                "learning_rate": 0.021389417676827033,
+                "momentum": 0.5652118559977515,
+                "num_blocks": 1,
+                "stride_after_stem": 1,
+                "weight_decay": 6.720617191258684e-07
+            },
+            "loss": 0.09238512118657427
+        },
+        {
+            "config": {
+                "batch": 131,
+                "breadth": 2.747712998029956,
+                "first_conv_kernel": 1,
+                "learning_rate": 0.0018845853220943614,
+                "momentum": 0.47688632398776326,
+                "num_blocks": 2,
+                "stride_after_stem": 0,
+                "weight_decay": 3.189887284877595e-05
+            },
+            "loss": 0.1374788608240045
+        },
+        {
+            "config": {
+                "batch": 107,
+                "breadth": 4.11269108740779,
+                "first_conv_kernel": 0,
+                "learning_rate": 0.46895653911532953,
+                "momentum": 0.8787648966062818,
+                "num_blocks": 3,
+                "stride_after_stem": 0,
+                "weight_decay": 0.00015011832291176203
+            },
+            "loss": 0.04426958477287957
+        },
+        {
+            "config": {
+                "batch": 73,
+                "breadth": 2.47548916313471,
+                "first_conv_kernel": 0,
+                "learning_rate": 0.1420070877025545,
+                "momentum": 0.3372908573806349,
+                "num_blocks": 6,
+                "stride_after_stem": 0,
+                "weight_decay": 4.286800219620332e-05
+            },
+            "loss": 0.06242190498903577
+        },
+        {
+            "config": {
+                "batch": 95,
+                "breadth": 2.143700818034628,
+                "first_conv_kernel": 0,
+                "learning_rate": 0.0021000738523193167,
+                "momentum": 0.24288498870167646,
+                "num_blocks": 5,
+                "stride_after_stem": 0,
+                "weight_decay": 9.382753090770218e-05
+            },
+            "loss": 0.1329495282843709
+        },
+        {
+            "config": {
+                "batch": 101,
+                "breadth": 4.453453789994456,
+                "first_conv_kernel": 1,
+                "learning_rate": 0.4333774566758975,
+                "momentum": 0.7497964162188576,
+                "num_blocks": 3,
+                "stride_after_stem": 1,
+                "weight_decay": 2.258696049675349e-07
+            },
+            "loss": 0.06986640691757207
+        },
+        {
+            "config": {
+                "batch": 211,
+                "breadth": 4.789389071999059,
+                "first_conv_kernel": 0,
+                "learning_rate": 0.15536270615069162,
+                "momentum": 0.9859728702326678,
+                "num_blocks": 6,
+                "stride_after_stem": 1,
+                "weight_decay": 4.304115194568045e-07
+            },
+            "loss": 0.07777978839545419
+        },
+        {
+            "config": {
+                "batch": 85,
+                "breadth": 1.9619383200548413,
+                "first_conv_kernel": 1,
+                "learning_rate": 0.0014889305799229554,
+                "momentum": 0.3509930325960428,
+                "num_blocks": 6,
+                "stride_after_stem": 0,
+                "weight_decay": 2.717645789040228e-05
+            },
+            "loss": 0.1320629589994189
+        },
+        {
+            "config": {
+                "batch": 75,
+                "breadth": 2.0193770180588135,
+                "first_conv_kernel": 0,
+                "learning_rate": 0.6618849521987538,
+                "momentum": 0.7064573489845607,
+                "num_blocks": 6,
+                "stride_after_stem": 1,
+                "weight_decay": 0.00010084443235538873
+            },
+            "loss": 0.06716664209961887
+        },
+        {
+            "config": {
+                "batch": 162,
+                "breadth": 4.750165293857125,
+                "first_conv_kernel": 0,
+                "learning_rate": 0.1446940173967315,
+                "momentum": 0.9852453592921707,
+                "num_blocks": 5,
+                "stride_after_stem": 1,
+                "weight_decay": 3.122646146664254e-07
+            },
+            "loss": 0.07033788059887136
+        },
+        {
+            "config": {
+                "batch": 189,
+                "breadth": 4.915566356567751,
+                "first_conv_kernel": 0,
+                "learning_rate": 0.5947910586434382,
+                "momentum": 0.9503073511038164,
+                "num_blocks": 5,
+                "stride_after_stem": 1,
+                "weight_decay": 1.9027713028709878e-06
+            },
+            "loss": 0.08279863931238651
+        },
+        {
+            "config": {
+                "batch": 113,
+                "breadth": 0.6686736188261706,
+                "first_conv_kernel": 0,
+                "learning_rate": 0.6798297249155386,
+                "momentum": 0.26987937163680437,
+                "num_blocks": 4,
+                "stride_after_stem": 0,
+                "weight_decay": 2.3088182975039355e-06
+            },
+            "loss": 0.1006674358138332
+        },
+        {
+            "config": {
+                "batch": 80,
+                "breadth": 4.1170906265162746,
+                "first_conv_kernel": 1,
+                "learning_rate": 0.6474695465243884,
+                "momentum": 0.9675860202664366,
+                "num_blocks": 1,
+                "stride_after_stem": 0,
+                "weight_decay": 0.00019597441160560392
+            },
+            "loss": 0.34349998712539676
+        },
+        {
+            "config": {
+                "batch": 173,
+                "breadth": 1.0968924916064875,
+                "first_conv_kernel": 0,
+                "learning_rate": 0.8282957436093128,
+                "momentum": 0.7775605136440592,
+                "num_blocks": 2,
+                "stride_after_stem": 1,
+                "weight_decay": 3.385747191494001e-06
+            },
+            "loss": 0.10807430573872157
+        },
+        {
+            "config": {
+                "batch": 76,
+                "breadth": 4.7493962353329335,
+                "first_conv_kernel": 1,
+                "learning_rate": 0.846962957962912,
+                "momentum": 0.6404895316732273,
+                "num_blocks": 6,
+                "stride_after_stem": 0,
+                "weight_decay": 1.4994627525730582e-07
+            },
+            "loss": 0.058349985865097986
+        },
+        {
+            "config": {
+                "batch": 69,
+                "breadth": 3.1737991613288297,
+                "first_conv_kernel": 0,
+                "learning_rate": 0.08301364003847798,
+                "momentum": 0.9015413100289609,
+                "num_blocks": 6,
+                "stride_after_stem": 1,
+                "weight_decay": 2.5689490824064176e-05
+            },
+            "loss": 0.06084834912727621
+        },
+        {
+            "config": {
+                "batch": 192,
+                "breadth": 3.606482155754673,
+                "first_conv_kernel": 1,
+                "learning_rate": 0.9530499968773697,
+                "momentum": 0.2303827745171076,
+                "num_blocks": 5,
+                "stride_after_stem": 0,
+                "weight_decay": 1.134117418934902e-05
+            },
+            "loss": 0.06640623323619366
+        },
+        {
+            "config": {
+                "batch": 103,
+                "breadth": 3.5422247222292844,
+                "first_conv_kernel": 0,
+                "learning_rate": 0.5073960579819047,
+                "momentum": 0.9158514949693183,
+                "num_blocks": 6,
+                "stride_after_stem": 0,
+                "weight_decay": 1.9032595666728372e-05
+            },
+            "loss": 0.05379677424996587
+        },
+        {
+            "config": {
+                "batch": 106,
+                "breadth": 1.9707391397174732,
+                "first_conv_kernel": 0,
+                "learning_rate": 0.8219776979993315,
+                "momentum": 0.2375549681612954,
+                "num_blocks": 4,
+                "stride_after_stem": 1,
+                "weight_decay": 1.3620812805949256e-07
+            },
+            "loss": 0.0853349325949686
+        },
+        {
+            "config": {
+                "batch": 162,
+                "breadth": 2.2140734076811746,
+                "first_conv_kernel": 0,
+                "learning_rate": 0.24756790094982628,
+                "momentum": 0.335696937569035,
+                "num_blocks": 5,
+                "stride_after_stem": 1,
+                "weight_decay": 2.896899732881755e-05
+            },
+            "loss": 0.07878492537297699
+        },
+        {
+            "config": {
+                "batch": 81,
+                "breadth": 4.113175059600558,
+                "first_conv_kernel": 0,
+                "learning_rate": 0.059333975187323244,
+                "momentum": 0.9571041452829115,
+                "num_blocks": 5,
+                "stride_after_stem": 0,
+                "weight_decay": 1.4842037922151552e-06
+            },
+            "loss": 0.05942385514577231
+        },
+        {
+            "config": {
+                "batch": 66,
+                "breadth": 3.2716772087731156,
+                "first_conv_kernel": 1,
+                "learning_rate": 0.15801916094812524,
+                "momentum": 0.8809474205506256,
+                "num_blocks": 6,
+                "stride_after_stem": 0,
+                "weight_decay": 1.1995744619315972e-05
+            },
+            "loss": 0.052996968830024804
+        },
+        {
+            "config": {
+                "batch": 85,
+                "breadth": 3.438664169604585,
+                "first_conv_kernel": 0,
+                "learning_rate": 0.31824089297500774,
+                "momentum": 0.7490442417674078,
+                "num_blocks": 5,
+                "stride_after_stem": 1,
+                "weight_decay": 0.00021351574826963018
+            },
+            "loss": 0.052874893369808995
+        },
+        {
+            "config": {
+                "batch": 64,
+                "breadth": 0.8800097140669558,
+                "first_conv_kernel": 0,
+                "learning_rate": 0.3873436859943014,
+                "momentum": 0.4933241799410133,
+                "num_blocks": 4,
+                "stride_after_stem": 1,
+                "weight_decay": 0.00024228721626018087
+            },
+            "loss": 0.09424867021276595
+        },
+        {
+            "config": {
+                "batch": 91,
+                "breadth": 2.8257973891264396,
+                "first_conv_kernel": 0,
+                "learning_rate": 0.47923252404408617,
+                "momentum": 0.6409856704010848,
+                "num_blocks": 6,
+                "stride_after_stem": 1,
+                "weight_decay": 3.366993907311864e-05
+            },
+            "loss": 0.06449432535604993
+        },
+        {
+            "config": {
+                "batch": 77,
+                "breadth": 4.599713058984042,
+                "first_conv_kernel": 0,
+                "learning_rate": 0.28205144148667277,
+                "momentum": 0.8502407211804428,
+                "num_blocks": 4,
+                "stride_after_stem": 0,
+                "weight_decay": 7.187314925378886e-05
+            },
+            "loss": 0.03966926534970605
+        },
+        {
+            "config": {
+                "batch": 71,
+                "breadth": 3.8796987545134725,
+                "first_conv_kernel": 0,
+                "learning_rate": 0.04362213990192493,
+                "momentum": 0.831609585937831,
+                "num_blocks": 4,
+                "stride_after_stem": 0,
+                "weight_decay": 9.449586941124799e-07
+            },
+            "loss": 0.06261163739597098
+        },
+        {
+            "config": {
+                "batch": 79,
+                "breadth": 4.630125860053635,
+                "first_conv_kernel": 1,
+                "learning_rate": 0.20162081345628316,
+                "momentum": 0.9366397888081172,
+                "num_blocks": 5,
+                "stride_after_stem": 0,
+                "weight_decay": 9.136131480673163e-07
+            },
+            "loss": 0.05850541905352946
+        },
+        {
+            "config": {
+                "batch": 177,
+                "breadth": 4.55426302652881,
+                "first_conv_kernel": 1,
+                "learning_rate": 0.5582295428247527,
+                "momentum": 0.25535127330762347,
+                "num_blocks": 6,
+                "stride_after_stem": 0,
+                "weight_decay": 0.0002486268207416506
+            },
+            "loss": 0.044351227143231586
+        },
+        {
+            "config": {
+                "batch": 107,
+                "breadth": 3.0272349716312146,
+                "first_conv_kernel": 0,
+                "learning_rate": 0.17858712403531057,
+                "momentum": 0.7257996281242791,
+                "num_blocks": 6,
+                "stride_after_stem": 0,
+                "weight_decay": 1.3953255489765078e-05
+            },
+            "loss": 0.06138304555625251
+        },
+        {
+            "config": {
+                "batch": 106,
+                "breadth": 4.019999138513143,
+                "first_conv_kernel": 1,
+                "learning_rate": 0.13367330749058345,
+                "momentum": 0.37856202171811953,
+                "num_blocks": 5,
+                "stride_after_stem": 0,
+                "weight_decay": 0.0004908318438159462
+            },
+            "loss": 0.047604260737435844
+        },
+        {
+            "config": {
+                "batch": 210,
+                "breadth": 4.227765232744191,
+                "first_conv_kernel": 1,
+                "learning_rate": 0.4010949905300411,
+                "momentum": 0.48887118724542905,
+                "num_blocks": 5,
+                "stride_after_stem": 0,
+                "weight_decay": 2.45775169356421e-06
+            },
+            "loss": 0.0662150567975538
+        },
+        {
+            "config": {
+                "batch": 66,
+                "breadth": 3.6941733622165494,
+                "first_conv_kernel": 1,
+                "learning_rate": 0.05940677131133355,
+                "momentum": 0.987243686238071,
+                "num_blocks": 6,
+                "stride_after_stem": 0,
+                "weight_decay": 0.00036438426722679396
+            },
+            "loss": 0.08932731243280267
+        },
+        {
+            "config": {
+                "batch": 74,
+                "breadth": 1.5883599465889267,
+                "first_conv_kernel": 0,
+                "learning_rate": 0.044832101249704576,
+                "momentum": 0.7888218583294737,
+                "num_blocks": 4,
+                "stride_after_stem": 0,
+                "weight_decay": 0.00011893345743650447
+            },
+            "loss": 0.06789714170665273
+        },
+        {
+            "config": {
+                "batch": 158,
+                "breadth": 2.580343514864322,
+                "first_conv_kernel": 1,
+                "learning_rate": 0.00028561434841156794,
+                "momentum": 0.5736461851794786,
+                "num_blocks": 1,
+                "stride_after_stem": 1,
+                "weight_decay": 4.91355406051817e-07
+            },
+            "loss": 0.3877198586338445
+        }
+    ]
+}

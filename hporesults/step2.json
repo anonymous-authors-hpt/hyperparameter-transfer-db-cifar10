@@ -1,0 +1,1233 @@
+{
+    "configspace": {
+        "weight_decay": {
+            "lower": 1e-07,
+            "upper": 0.001,
+            "log": true,
+            "type": "float"
+        },
+        "momentum": {
+            "lower": 0,
+            "upper": 0.99,
+            "type": "float"
+        },
+        "learning_rate": {
+            "lower": 0.0001,
+            "upper": 1,
+            "log": true,
+            "type": "float"
+        },
+        "batch": {
+            "lower": 64,
+            "upper": 256,
+            "log": true,
+            "type": "integer"
+        },
+        "breadth": {
+            "lower": 0.5,
+            "upper": 5,
+            "type": "float"
+        },
+        "num_blocks": {
+            "lower": 1,
+            "upper": 6,
+            "type": "integer"
+        },
+        "stride_after_stem": {
+            "lower": 0,
+            "upper": 1,
+            "type": "integer"
+        },
+        "first_conv_kernel": {
+            "lower": 0,
+            "upper": 1,
+            "type": "integer"
+        },
+        "cutout_size": {
+            "lower": 1,
+            "upper": 32,
+            "log": true,
+            "type": "integer"
+        },
+        "warmup_epochs": {
+            "lower": 0,
+            "upper": 5,
+            "type": "integer"
+        },
+        "warmup_multiplier": {
+            "lower": 2,
+            "upper": 8,
+            "type": "integer"
+        }
+    },
+    "trials": [
+        {
+            "config": {
+                "batch": 72,
+                "breadth": 1.9232616337796062,
+                "cutout_size": 4,
+                "first_conv_kernel": 1,
+                "learning_rate": 0.18130674369095295,
+                "momentum": 0.536349062520715,
+                "num_blocks": 4,
+                "stride_after_stem": 1,
+                "warmup_epochs": 3,
+                "warmup_multiplier": 5,
+                "weight_decay": 2.448369906261474e-05
+            },
+            "loss": 0.07175924593494054
+        },
+        {
+            "config": {
+                "batch": 132,
+                "breadth": 2.8318853879506047,
+                "cutout_size": 1,
+                "first_conv_kernel": 0,
+                "learning_rate": 0.1466523094531514,
+                "momentum": 0.4884692368175867,
+                "num_blocks": 4,
+                "stride_after_stem": 0,
+                "warmup_epochs": 4,
+                "warmup_multiplier": 2,
+                "weight_decay": 4.119065539805259e-06
+            },
+            "loss": 0.06409746408462524
+        },
+        {
+            "config": {
+                "batch": 94,
+                "breadth": 1.7839811912873846,
+                "cutout_size": 7,
+                "first_conv_kernel": 1,
+                "learning_rate": 0.00028282293156597585,
+                "momentum": 0.27828357409757776,
+                "num_blocks": 2,
+                "stride_after_stem": 0,
+                "warmup_epochs": 3,
+                "warmup_multiplier": 5,
+                "weight_decay": 5.025747467527248e-07
+            },
+            "loss": 0.16609984077513218
+        },
+        {
+            "config": {
+                "batch": 100,
+                "breadth": 2.6804942110966707,
+                "cutout_size": 6,
+                "first_conv_kernel": 1,
+                "learning_rate": 0.0005654885070558958,
+                "momentum": 0.6295324572457833,
+                "num_blocks": 3,
+                "stride_after_stem": 0,
+                "warmup_epochs": 0,
+                "warmup_multiplier": 7,
+                "weight_decay": 2.2858880649672825e-05
+            },
+            "loss": 0.14450002113978067
+        },
+        {
+            "config": {
+                "batch": 84,
+                "breadth": 3.537730764433606,
+                "cutout_size": 1,
+                "first_conv_kernel": 0,
+                "learning_rate": 0.3257967197263006,
+                "momentum": 0.4714540556534441,
+                "num_blocks": 6,
+                "stride_after_stem": 0,
+                "warmup_epochs": 5,
+                "warmup_multiplier": 2,
+                "weight_decay": 0.000655810800713228
+            },
+            "loss": 0.043264974322583916
+        },
+        {
+            "config": {
+                "batch": 132,
+                "breadth": 1.7222450215458611,
+                "cutout_size": 18,
+                "first_conv_kernel": 0,
+                "learning_rate": 0.0005281442643036976,
+                "momentum": 0.5385521067867309,
+                "num_blocks": 4,
+                "stride_after_stem": 0,
+                "warmup_epochs": 2,
+                "warmup_multiplier": 6,
+                "weight_decay": 0.0003423303137337158
+            },
+            "loss": 0.09640972251477453
+        },
+        {
+            "config": {
+                "batch": 112,
+                "breadth": 1.9902259949481282,
+                "cutout_size": 10,
+                "first_conv_kernel": 0,
+                "learning_rate": 0.14847810910745213,
+                "momentum": 0.5205867266894654,
+                "num_blocks": 4,
+                "stride_after_stem": 1,
+                "warmup_epochs": 2,
+                "warmup_multiplier": 5,
+                "weight_decay": 8.636275277767327e-05
+            },
+            "loss": 0.05646490609204324
+        },
+        {
+            "config": {
+                "batch": 196,
+                "breadth": 4.534007032770208,
+                "cutout_size": 19,
+                "first_conv_kernel": 0,
+                "learning_rate": 0.00035064270360652327,
+                "momentum": 0.014331838974056158,
+                "num_blocks": 1,
+                "stride_after_stem": 1,
+                "warmup_epochs": 5,
+                "warmup_multiplier": 5,
+                "weight_decay": 7.728076529849136e-07
+            },
+            "loss": 0.2680711092487458
+        },
+        {
+            "config": {
+                "batch": 122,
+                "breadth": 4.480757303064898,
+                "cutout_size": 1,
+                "first_conv_kernel": 1,
+                "learning_rate": 0.0015372265110050979,
+                "momentum": 0.2797620009535309,
+                "num_blocks": 4,
+                "stride_after_stem": 1,
+                "warmup_epochs": 4,
+                "warmup_multiplier": 2,
+                "weight_decay": 2.145813464926896e-05
+            },
+            "loss": 0.12879289627075197
+        },
+        {
+            "config": {
+                "batch": 74,
+                "breadth": 2.071383779945905,
+                "cutout_size": 2,
+                "first_conv_kernel": 1,
+                "learning_rate": 0.16046716201380185,
+                "momentum": 0.5114642520883266,
+                "num_blocks": 6,
+                "stride_after_stem": 0,
+                "warmup_epochs": 0,
+                "warmup_multiplier": 3,
+                "weight_decay": 2.3760364720736135e-05
+            },
+            "loss": 0.06657875165706728
+        },
+        {
+            "config": {
+                "batch": 98,
+                "breadth": 1.8694202132595992,
+                "cutout_size": 23,
+                "first_conv_kernel": 1,
+                "learning_rate": 0.6734366871668811,
+                "momentum": 0.7367135915501882,
+                "num_blocks": 5,
+                "stride_after_stem": 0,
+                "warmup_epochs": 1,
+                "warmup_multiplier": 7,
+                "weight_decay": 0.0009105532680652767
+            },
+            "loss": 0.9012508249631331
+        },
+        {
+            "config": {
+                "batch": 172,
+                "breadth": 3.53002822846938,
+                "cutout_size": 8,
+                "first_conv_kernel": 0,
+                "learning_rate": 0.7660866160918511,
+                "momentum": 0.7906094296719273,
+                "num_blocks": 6,
+                "stride_after_stem": 0,
+                "warmup_epochs": 4,
+                "warmup_multiplier": 7,
+                "weight_decay": 3.5040923911684414e-07
+            },
+            "loss": 0.08089263439178462
+        },
+        {
+            "config": {
+                "batch": 64,
+                "breadth": 3.3505532799110664,
+                "cutout_size": 4,
+                "first_conv_kernel": 0,
+                "learning_rate": 0.02472169371990835,
+                "momentum": 0.6607287834598804,
+                "num_blocks": 5,
+                "stride_after_stem": 0,
+                "warmup_epochs": 4,
+                "warmup_multiplier": 7,
+                "weight_decay": 2.8788839324021524e-06
+            },
+            "loss": 0.055795655605640815
+        },
+        {
+            "config": {
+                "batch": 106,
+                "breadth": 2.152163397099143,
+                "cutout_size": 3,
+                "first_conv_kernel": 0,
+                "learning_rate": 0.150343846061076,
+                "momentum": 0.5347414868293617,
+                "num_blocks": 4,
+                "stride_after_stem": 0,
+                "warmup_epochs": 1,
+                "warmup_multiplier": 6,
+                "weight_decay": 2.2585649610385837e-06
+            },
+            "loss": 0.06530845792670004
+        },
+        {
+            "config": {
+                "batch": 79,
+                "breadth": 1.9278444232750804,
+                "cutout_size": 2,
+                "first_conv_kernel": 1,
+                "learning_rate": 0.20153754514387093,
+                "momentum": 0.7412313669512347,
+                "num_blocks": 4,
+                "stride_after_stem": 0,
+                "warmup_epochs": 3,
+                "warmup_multiplier": 7,
+                "weight_decay": 0.0004120637089256982
+            },
+            "loss": 0.14166998078948578
+        },
+        {
+            "config": {
+                "batch": 98,
+                "breadth": 2.7999716839572466,
+                "cutout_size": 1,
+                "first_conv_kernel": 0,
+                "learning_rate": 0.00012307500426968028,
+                "momentum": 0.4371685925184768,
+                "num_blocks": 6,
+                "stride_after_stem": 0,
+                "warmup_epochs": 2,
+                "warmup_multiplier": 7,
+                "weight_decay": 9.612587358060187e-07
+            },
+            "loss": 0.15277696328778423
+        },
+        {
+            "config": {
+                "batch": 78,
+                "breadth": 2.897799370550576,
+                "cutout_size": 1,
+                "first_conv_kernel": 1,
+                "learning_rate": 0.13106422216417832,
+                "momentum": 0.6692112761396578,
+                "num_blocks": 4,
+                "stride_after_stem": 1,
+                "warmup_epochs": 0,
+                "warmup_multiplier": 5,
+                "weight_decay": 0.00010262701954369157
+            },
+            "loss": 0.06315904623502255
+        },
+        {
+            "config": {
+                "batch": 70,
+                "breadth": 3.089831331849493,
+                "cutout_size": 7,
+                "first_conv_kernel": 0,
+                "learning_rate": 0.6471557628714574,
+                "momentum": 0.2734528935884575,
+                "num_blocks": 5,
+                "stride_after_stem": 0,
+                "warmup_epochs": 0,
+                "warmup_multiplier": 2,
+                "weight_decay": 2.392791608849889e-07
+            },
+            "loss": 0.05734217582746992
+        },
+        {
+            "config": {
+                "batch": 90,
+                "breadth": 4.256295687507005,
+                "cutout_size": 6,
+                "first_conv_kernel": 1,
+                "learning_rate": 0.46168791571043627,
+                "momentum": 0.5168637745648605,
+                "num_blocks": 4,
+                "stride_after_stem": 0,
+                "warmup_epochs": 3,
+                "warmup_multiplier": 3,
+                "weight_decay": 0.00010116864660658962
+            },
+            "loss": 0.038640113908853135
+        },
+        {
+            "config": {
+                "batch": 119,
+                "breadth": 2.4206044496369623,
+                "cutout_size": 3,
+                "first_conv_kernel": 1,
+                "learning_rate": 0.3756702012104681,
+                "momentum": 0.5284955985242995,
+                "num_blocks": 3,
+                "stride_after_stem": 1,
+                "warmup_epochs": 0,
+                "warmup_multiplier": 5,
+                "weight_decay": 2.158256514245243e-06
+            },
+            "loss": 0.08174981322942998
+        },
+        {
+            "config": {
+                "batch": 70,
+                "breadth": 4.954464776311921,
+                "cutout_size": 8,
+                "first_conv_kernel": 0,
+                "learning_rate": 0.00010604965873340107,
+                "momentum": 0.18643146091276613,
+                "num_blocks": 4,
+                "stride_after_stem": 1,
+                "warmup_epochs": 4,
+                "warmup_multiplier": 8,
+                "weight_decay": 2.3153090231678056e-05
+            },
+            "loss": 0.12893688193587372
+        },
+        {
+            "config": {
+                "batch": 154,
+                "breadth": 3.6018536307957647,
+                "cutout_size": 1,
+                "first_conv_kernel": 0,
+                "learning_rate": 0.16966010250341482,
+                "momentum": 0.8657253923308397,
+                "num_blocks": 5,
+                "stride_after_stem": 0,
+                "warmup_epochs": 1,
+                "warmup_multiplier": 6,
+                "weight_decay": 3.3811315255031397e-07
+            },
+            "loss": 0.05818282335232461
+        },
+        {
+            "config": {
+                "batch": 68,
+                "breadth": 3.8269839278488536,
+                "cutout_size": 8,
+                "first_conv_kernel": 0,
+                "learning_rate": 0.10335042922102018,
+                "momentum": 0.879778210418757,
+                "num_blocks": 3,
+                "stride_after_stem": 0,
+                "warmup_epochs": 2,
+                "warmup_multiplier": 7,
+                "weight_decay": 2.500296449262814e-07
+            },
+            "loss": 0.05964969785025953
+        },
+        {
+            "config": {
+                "batch": 160,
+                "breadth": 2.870680445073795,
+                "cutout_size": 30,
+                "first_conv_kernel": 0,
+                "learning_rate": 0.5944975837338826,
+                "momentum": 0.70839414746817,
+                "num_blocks": 5,
+                "stride_after_stem": 1,
+                "warmup_epochs": 5,
+                "warmup_multiplier": 7,
+                "weight_decay": 0.00017386666240015895
+            },
+            "loss": 0.11118420017393016
+        },
+        {
+            "config": {
+                "batch": 82,
+                "breadth": 4.362585285476765,
+                "cutout_size": 1,
+                "first_conv_kernel": 0,
+                "learning_rate": 0.3861418553517939,
+                "momentum": 0.0488132702216032,
+                "num_blocks": 4,
+                "stride_after_stem": 1,
+                "warmup_epochs": 0,
+                "warmup_multiplier": 4,
+                "weight_decay": 1.3034253046094152e-07
+            },
+            "loss": 0.072299688249021
+        },
+        {
+            "config": {
+                "batch": 98,
+                "breadth": 4.303040753763966,
+                "cutout_size": 7,
+                "first_conv_kernel": 0,
+                "learning_rate": 0.17386068794076992,
+                "momentum": 0.6299027397768526,
+                "num_blocks": 1,
+                "stride_after_stem": 1,
+                "warmup_epochs": 1,
+                "warmup_multiplier": 6,
+                "weight_decay": 3.7146934181551432e-06
+            },
+            "loss": 0.07379259024896934
+        },
+        {
+            "config": {
+                "batch": 225,
+                "breadth": 4.1949020930454335,
+                "cutout_size": 1,
+                "first_conv_kernel": 0,
+                "learning_rate": 0.3662300483947664,
+                "momentum": 0.31441619443052193,
+                "num_blocks": 3,
+                "stride_after_stem": 0,
+                "warmup_epochs": 1,
+                "warmup_multiplier": 3,
+                "weight_decay": 2.6422652088810965e-06
+            },
+            "loss": 0.06617281392768581
+        },
+        {
+            "config": {
+                "batch": 101,
+                "breadth": 1.8632812656182791,
+                "cutout_size": 1,
+                "first_conv_kernel": 0,
+                "learning_rate": 0.1616605760604336,
+                "momentum": 0.3413910362122059,
+                "num_blocks": 6,
+                "stride_after_stem": 1,
+                "warmup_epochs": 5,
+                "warmup_multiplier": 2,
+                "weight_decay": 0.0005604606108553806
+            },
+            "loss": 0.0630363315343857
+        },
+        {
+            "config": {
+                "batch": 136,
+                "breadth": 3.6962970751778714,
+                "cutout_size": 27,
+                "first_conv_kernel": 0,
+                "learning_rate": 0.14038383297435164,
+                "momentum": 0.7232397867441009,
+                "num_blocks": 6,
+                "stride_after_stem": 0,
+                "warmup_epochs": 4,
+                "warmup_multiplier": 3,
+                "weight_decay": 0.0005904160703120149
+            },
+            "loss": 0.03766338560316296
+        },
+        {
+            "config": {
+                "batch": 83,
+                "breadth": 3.6051541155930003,
+                "cutout_size": 1,
+                "first_conv_kernel": 0,
+                "learning_rate": 0.28603648349678695,
+                "momentum": 0.6882060705910134,
+                "num_blocks": 6,
+                "stride_after_stem": 0,
+                "warmup_epochs": 5,
+                "warmup_multiplier": 4,
+                "weight_decay": 5.438296287448451e-07
+            },
+            "loss": 0.056596275061777224
+        },
+        {
+            "config": {
+                "batch": 178,
+                "breadth": 3.928325809633778,
+                "cutout_size": 3,
+                "first_conv_kernel": 1,
+                "learning_rate": 0.0024830149187789487,
+                "momentum": 0.32146564654767373,
+                "num_blocks": 2,
+                "stride_after_stem": 1,
+                "warmup_epochs": 0,
+                "warmup_multiplier": 7,
+                "weight_decay": 4.785731179166833e-05
+            },
+            "loss": 0.13494159544215478
+        },
+        {
+            "config": {
+                "batch": 103,
+                "breadth": 3.97095049758551,
+                "cutout_size": 21,
+                "first_conv_kernel": 1,
+                "learning_rate": 0.31484211184539757,
+                "momentum": 0.2486645193851195,
+                "num_blocks": 2,
+                "stride_after_stem": 0,
+                "warmup_epochs": 3,
+                "warmup_multiplier": 2,
+                "weight_decay": 0.00030021463639019004
+            },
+            "loss": 0.0444234781346079
+        },
+        {
+            "config": {
+                "batch": 76,
+                "breadth": 3.526471290650891,
+                "cutout_size": 13,
+                "first_conv_kernel": 1,
+                "learning_rate": 0.27813873875950684,
+                "momentum": 0.6467573283145248,
+                "num_blocks": 3,
+                "stride_after_stem": 0,
+                "warmup_epochs": 4,
+                "warmup_multiplier": 2,
+                "weight_decay": 3.714878920120056e-06
+            },
+            "loss": 0.05282588548298128
+        },
+        {
+            "config": {
+                "batch": 78,
+                "breadth": 3.018049643750707,
+                "cutout_size": 1,
+                "first_conv_kernel": 0,
+                "learning_rate": 0.958990043672307,
+                "momentum": 0.7403649341935409,
+                "num_blocks": 6,
+                "stride_after_stem": 0,
+                "warmup_epochs": 2,
+                "warmup_multiplier": 3,
+                "weight_decay": 2.6125648434407485e-05
+            },
+            "loss": 0.08433231363048799
+        },
+        {
+            "config": {
+                "batch": 75,
+                "breadth": 0.6873333061390308,
+                "cutout_size": 16,
+                "first_conv_kernel": 1,
+                "learning_rate": 0.00028068466695139495,
+                "momentum": 0.35625548696414877,
+                "num_blocks": 2,
+                "stride_after_stem": 1,
+                "warmup_epochs": 2,
+                "warmup_multiplier": 3,
+                "weight_decay": 1.6170170652061005e-07
+            },
+            "loss": 0.2979999855160713
+        },
+        {
+            "config": {
+                "batch": 123,
+                "breadth": 1.1651451853300645,
+                "cutout_size": 1,
+                "first_conv_kernel": 0,
+                "learning_rate": 0.14019913141451737,
+                "momentum": 0.00038084056259838684,
+                "num_blocks": 6,
+                "stride_after_stem": 1,
+                "warmup_epochs": 5,
+                "warmup_multiplier": 3,
+                "weight_decay": 0.0001101805848187063
+            },
+            "loss": 0.0853658902401827
+        },
+        {
+            "config": {
+                "batch": 188,
+                "breadth": 3.6402160469648077,
+                "cutout_size": 2,
+                "first_conv_kernel": 0,
+                "learning_rate": 0.1929750898977704,
+                "momentum": 0.9516436008953817,
+                "num_blocks": 5,
+                "stride_after_stem": 0,
+                "warmup_epochs": 1,
+                "warmup_multiplier": 5,
+                "weight_decay": 1.0417551844903092e-05
+            },
+            "loss": 0.05484216287732124
+        },
+        {
+            "config": {
+                "batch": 212,
+                "breadth": 4.938028429690441,
+                "cutout_size": 4,
+                "first_conv_kernel": 1,
+                "learning_rate": 0.45981332626911114,
+                "momentum": 0.42721107193980945,
+                "num_blocks": 1,
+                "stride_after_stem": 0,
+                "warmup_epochs": 2,
+                "warmup_multiplier": 6,
+                "weight_decay": 2.128121064107896e-07
+            },
+            "loss": 0.08028015597113247
+        },
+        {
+            "config": {
+                "batch": 78,
+                "breadth": 0.6058609596190707,
+                "cutout_size": 5,
+                "first_conv_kernel": 0,
+                "learning_rate": 0.10003519540155201,
+                "momentum": 0.6102769028044301,
+                "num_blocks": 5,
+                "stride_after_stem": 0,
+                "warmup_epochs": 4,
+                "warmup_multiplier": 8,
+                "weight_decay": 5.981197713795184e-05
+            },
+            "loss": 0.08245918812689845
+        },
+        {
+            "config": {
+                "batch": 73,
+                "breadth": 4.22289908971565,
+                "cutout_size": 8,
+                "first_conv_kernel": 0,
+                "learning_rate": 0.029057553543247024,
+                "momentum": 0.9871953474886065,
+                "num_blocks": 2,
+                "stride_after_stem": 0,
+                "warmup_epochs": 5,
+                "warmup_multiplier": 5,
+                "weight_decay": 1.3688844079502222e-07
+            },
+            "loss": 0.07054440874651258
+        },
+        {
+            "config": {
+                "batch": 213,
+                "breadth": 4.068511063735882,
+                "cutout_size": 5,
+                "first_conv_kernel": 0,
+                "learning_rate": 0.025463968709243827,
+                "momentum": 0.7767355609445397,
+                "num_blocks": 4,
+                "stride_after_stem": 0,
+                "warmup_epochs": 2,
+                "warmup_multiplier": 5,
+                "weight_decay": 1.4995786296565377e-07
+            },
+            "loss": 0.06405481593362217
+        },
+        {
+            "config": {
+                "batch": 85,
+                "breadth": 4.230622549512606,
+                "cutout_size": 9,
+                "first_conv_kernel": 1,
+                "learning_rate": 0.5916197613698104,
+                "momentum": 0.9207178850371746,
+                "num_blocks": 2,
+                "stride_after_stem": 1,
+                "warmup_epochs": 4,
+                "warmup_multiplier": 2,
+                "weight_decay": 0.0006403192112611138
+            },
+            "loss": 0.900579947794617
+        },
+        {
+            "config": {
+                "batch": 89,
+                "breadth": 4.009428646768216,
+                "cutout_size": 26,
+                "first_conv_kernel": 0,
+                "learning_rate": 0.7638064855131047,
+                "momentum": 0.8072501743730797,
+                "num_blocks": 6,
+                "stride_after_stem": 0,
+                "warmup_epochs": 4,
+                "warmup_multiplier": 2,
+                "weight_decay": 6.714443541756952e-06
+            },
+            "loss": 0.04054946233244505
+        },
+        {
+            "config": {
+                "batch": 94,
+                "breadth": 3.2759425604335264,
+                "cutout_size": 14,
+                "first_conv_kernel": 1,
+                "learning_rate": 0.7712829394165858,
+                "momentum": 0.08729460754878794,
+                "num_blocks": 2,
+                "stride_after_stem": 0,
+                "warmup_epochs": 5,
+                "warmup_multiplier": 2,
+                "weight_decay": 8.715071698553345e-05
+            },
+            "loss": 0.04767633508890867
+        },
+        {
+            "config": {
+                "batch": 65,
+                "breadth": 3.304729698494607,
+                "cutout_size": 25,
+                "first_conv_kernel": 0,
+                "learning_rate": 0.21046991651547364,
+                "momentum": 0.28071612900070636,
+                "num_blocks": 6,
+                "stride_after_stem": 0,
+                "warmup_epochs": 0,
+                "warmup_multiplier": 7,
+                "weight_decay": 5.404173486473716e-07
+            },
+            "loss": 0.04999999717999526
+        },
+        {
+            "config": {
+                "batch": 118,
+                "breadth": 3.969232777847324,
+                "cutout_size": 29,
+                "first_conv_kernel": 1,
+                "learning_rate": 0.18548750578372086,
+                "momentum": 0.2764631565434666,
+                "num_blocks": 3,
+                "stride_after_stem": 0,
+                "warmup_epochs": 4,
+                "warmup_multiplier": 4,
+                "weight_decay": 5.765836257090654e-06
+            },
+            "loss": 0.05537720170675542
+        },
+        {
+            "config": {
+                "batch": 74,
+                "breadth": 4.68652737620096,
+                "cutout_size": 6,
+                "first_conv_kernel": 1,
+                "learning_rate": 0.9152809123837858,
+                "momentum": 0.5238134003252656,
+                "num_blocks": 5,
+                "stride_after_stem": 0,
+                "warmup_epochs": 5,
+                "warmup_multiplier": 3,
+                "weight_decay": 0.00041707205484818453
+            },
+            "loss": 0.07185231403606696
+        },
+        {
+            "config": {
+                "batch": 145,
+                "breadth": 1.9210624812857684,
+                "cutout_size": 11,
+                "first_conv_kernel": 1,
+                "learning_rate": 0.2537197233467274,
+                "momentum": 0.871074418570009,
+                "num_blocks": 5,
+                "stride_after_stem": 1,
+                "warmup_epochs": 5,
+                "warmup_multiplier": 2,
+                "weight_decay": 1.1008742145254775e-07
+            },
+            "loss": 0.0783101902121589
+        },
+        {
+            "config": {
+                "batch": 81,
+                "breadth": 3.961885022796211,
+                "cutout_size": 10,
+                "first_conv_kernel": 1,
+                "learning_rate": 0.29226442592084784,
+                "momentum": 0.7279455732894049,
+                "num_blocks": 3,
+                "stride_after_stem": 0,
+                "warmup_epochs": 5,
+                "warmup_multiplier": 3,
+                "weight_decay": 9.168127705379919e-07
+            },
+            "loss": 0.04971191724141444
+        },
+        {
+            "config": {
+                "batch": 155,
+                "breadth": 4.013969566525013,
+                "cutout_size": 16,
+                "first_conv_kernel": 1,
+                "learning_rate": 0.29044821721299635,
+                "momentum": 0.17055295939003925,
+                "num_blocks": 4,
+                "stride_after_stem": 0,
+                "warmup_epochs": 1,
+                "warmup_multiplier": 4,
+                "weight_decay": 0.00034557068379900685
+            },
+            "loss": 0.03428831161596835
+        },
+        {
+            "config": {
+                "batch": 193,
+                "breadth": 4.463697104410317,
+                "cutout_size": 3,
+                "first_conv_kernel": 0,
+                "learning_rate": 0.014401031610107716,
+                "momentum": 0.9717571973031323,
+                "num_blocks": 3,
+                "stride_after_stem": 0,
+                "warmup_epochs": 2,
+                "warmup_multiplier": 4,
+                "weight_decay": 1.3591377908143541e-06
+            },
+            "loss": 0.06061416119337082
+        },
+        {
+            "config": {
+                "batch": 122,
+                "breadth": 4.3335297159461135,
+                "cutout_size": 1,
+                "first_conv_kernel": 1,
+                "learning_rate": 0.006350479058988382,
+                "momentum": 0.7599069350605805,
+                "num_blocks": 5,
+                "stride_after_stem": 0,
+                "warmup_epochs": 0,
+                "warmup_multiplier": 2,
+                "weight_decay": 7.072939162527773e-05
+            },
+            "loss": 0.07526084780693054
+        },
+        {
+            "config": {
+                "batch": 69,
+                "breadth": 3.71664187418827,
+                "cutout_size": 1,
+                "first_conv_kernel": 1,
+                "learning_rate": 0.35876693435453333,
+                "momentum": 0.661474004961142,
+                "num_blocks": 1,
+                "stride_after_stem": 0,
+                "warmup_epochs": 4,
+                "warmup_multiplier": 2,
+                "weight_decay": 1.3368836289540267e-07
+            },
+            "loss": 0.08781970506426928
+        },
+        {
+            "config": {
+                "batch": 66,
+                "breadth": 3.5338267156793113,
+                "cutout_size": 5,
+                "first_conv_kernel": 1,
+                "learning_rate": 0.06274073692712298,
+                "momentum": 0.5895751701515051,
+                "num_blocks": 6,
+                "stride_after_stem": 0,
+                "warmup_epochs": 5,
+                "warmup_multiplier": 8,
+                "weight_decay": 1.493432388427327e-05
+            },
+            "loss": 0.05201461812952057
+        },
+        {
+            "config": {
+                "batch": 86,
+                "breadth": 1.3588997063791177,
+                "cutout_size": 5,
+                "first_conv_kernel": 1,
+                "learning_rate": 0.010822957937434092,
+                "momentum": 0.3005045062761389,
+                "num_blocks": 1,
+                "stride_after_stem": 1,
+                "warmup_epochs": 1,
+                "warmup_multiplier": 4,
+                "weight_decay": 3.613242201227613e-05
+            },
+            "loss": 0.11733111824308118
+        },
+        {
+            "config": {
+                "batch": 83,
+                "breadth": 2.832480972337758,
+                "cutout_size": 31,
+                "first_conv_kernel": 0,
+                "learning_rate": 0.7866234058961772,
+                "momentum": 0.17465848975791856,
+                "num_blocks": 4,
+                "stride_after_stem": 0,
+                "warmup_epochs": 3,
+                "warmup_multiplier": 7,
+                "weight_decay": 6.153925740298711e-07
+            },
+            "loss": 0.05734585001044079
+        },
+        {
+            "config": {
+                "batch": 143,
+                "breadth": 1.5659685021938798,
+                "cutout_size": 30,
+                "first_conv_kernel": 0,
+                "learning_rate": 0.00024141500570720777,
+                "momentum": 0.05104108803507493,
+                "num_blocks": 3,
+                "stride_after_stem": 1,
+                "warmup_epochs": 3,
+                "warmup_multiplier": 6,
+                "weight_decay": 3.269724909321581e-05
+            },
+            "loss": 0.32801505781355356
+        },
+        {
+            "config": {
+                "batch": 138,
+                "breadth": 3.4399535331260473,
+                "cutout_size": 1,
+                "first_conv_kernel": 1,
+                "learning_rate": 0.005107078828771999,
+                "momentum": 0.7105469972700643,
+                "num_blocks": 2,
+                "stride_after_stem": 0,
+                "warmup_epochs": 4,
+                "warmup_multiplier": 7,
+                "weight_decay": 0.00014765776606228163
+            },
+            "loss": 0.07783864438533783
+        },
+        {
+            "config": {
+                "batch": 119,
+                "breadth": 3.7799728364032594,
+                "cutout_size": 4,
+                "first_conv_kernel": 0,
+                "learning_rate": 0.0005979958422297154,
+                "momentum": 0.000626972939857554,
+                "num_blocks": 2,
+                "stride_after_stem": 1,
+                "warmup_epochs": 1,
+                "warmup_multiplier": 7,
+                "weight_decay": 1.0104172018495302e-07
+            },
+            "loss": 0.11726142845901788
+        },
+        {
+            "config": {
+                "batch": 227,
+                "breadth": 2.0617821576669746,
+                "cutout_size": 2,
+                "first_conv_kernel": 0,
+                "learning_rate": 0.012879049467035858,
+                "momentum": 0.4475718223510108,
+                "num_blocks": 3,
+                "stride_after_stem": 1,
+                "warmup_epochs": 4,
+                "warmup_multiplier": 2,
+                "weight_decay": 3.5109210125299334e-05
+            },
+            "loss": 0.10405370261934066
+        },
+        {
+            "config": {
+                "batch": 85,
+                "breadth": 3.5782078442242256,
+                "cutout_size": 26,
+                "first_conv_kernel": 1,
+                "learning_rate": 0.5191885302536987,
+                "momentum": 0.1789018228522017,
+                "num_blocks": 1,
+                "stride_after_stem": 0,
+                "warmup_epochs": 1,
+                "warmup_multiplier": 2,
+                "weight_decay": 3.211634690869427e-06
+            },
+            "loss": 0.07860811495445141
+        },
+        {
+            "config": {
+                "batch": 88,
+                "breadth": 0.7831868424518668,
+                "cutout_size": 30,
+                "first_conv_kernel": 0,
+                "learning_rate": 0.4314214393951657,
+                "momentum": 0.9402531806472884,
+                "num_blocks": 1,
+                "stride_after_stem": 1,
+                "warmup_epochs": 2,
+                "warmup_multiplier": 3,
+                "weight_decay": 1.0857187824764695e-07
+            },
+            "loss": 0.29718377711116406
+        },
+        {
+            "config": {
+                "batch": 83,
+                "breadth": 3.559154981046784,
+                "cutout_size": 19,
+                "first_conv_kernel": 1,
+                "learning_rate": 0.38602580730027714,
+                "momentum": 0.2162250688662384,
+                "num_blocks": 3,
+                "stride_after_stem": 0,
+                "warmup_epochs": 3,
+                "warmup_multiplier": 4,
+                "weight_decay": 3.2564706090361447e-07
+            },
+            "loss": 0.05041401598551498
+        },
+        {
+            "config": {
+                "batch": 167,
+                "breadth": 3.869446908147422,
+                "cutout_size": 11,
+                "first_conv_kernel": 1,
+                "learning_rate": 0.04191249175130522,
+                "momentum": 0.38493162481884763,
+                "num_blocks": 5,
+                "stride_after_stem": 0,
+                "warmup_epochs": 3,
+                "warmup_multiplier": 4,
+                "weight_decay": 1.832207855521531e-05
+            },
+            "loss": 0.05481399761305916
+        },
+        {
+            "config": {
+                "batch": 70,
+                "breadth": 3.5206109171542312,
+                "cutout_size": 22,
+                "first_conv_kernel": 0,
+                "learning_rate": 0.20472661855828486,
+                "momentum": 0.895312844084781,
+                "num_blocks": 3,
+                "stride_after_stem": 0,
+                "warmup_epochs": 3,
+                "warmup_multiplier": 3,
+                "weight_decay": 0.0002218217591765211
+            },
+            "loss": 0.05747506923453749
+        },
+        {
+            "config": {
+                "batch": 88,
+                "breadth": 2.9673854803448316,
+                "cutout_size": 12,
+                "first_conv_kernel": 0,
+                "learning_rate": 0.41217093747500444,
+                "momentum": 0.06508560654777867,
+                "num_blocks": 4,
+                "stride_after_stem": 0,
+                "warmup_epochs": 5,
+                "warmup_multiplier": 2,
+                "weight_decay": 4.704566546541477e-06
+            },
+            "loss": 0.04981880948163464
+        },
+        {
+            "config": {
+                "batch": 178,
+                "breadth": 3.392002536093493,
+                "cutout_size": 28,
+                "first_conv_kernel": 1,
+                "learning_rate": 0.06405747888724962,
+                "momentum": 0.009717653908676425,
+                "num_blocks": 5,
+                "stride_after_stem": 1,
+                "warmup_epochs": 4,
+                "warmup_multiplier": 2,
+                "weight_decay": 6.16610766041876e-05
+            },
+            "loss": 0.06663937253110552
+        },
+        {
+            "config": {
+                "batch": 106,
+                "breadth": 4.3973548115648695,
+                "cutout_size": 6,
+                "first_conv_kernel": 1,
+                "learning_rate": 0.5373030246196375,
+                "momentum": 0.24643246308697062,
+                "num_blocks": 5,
+                "stride_after_stem": 0,
+                "warmup_epochs": 1,
+                "warmup_multiplier": 3,
+                "weight_decay": 0.000271922152917839
+            },
+            "loss": 0.038066857739498694
+        },
+        {
+            "config": {
+                "batch": 194,
+                "breadth": 1.7225579208222876,
+                "cutout_size": 10,
+                "first_conv_kernel": 1,
+                "learning_rate": 0.031766184846616766,
+                "momentum": 0.3049104536902552,
+                "num_blocks": 4,
+                "stride_after_stem": 0,
+                "warmup_epochs": 0,
+                "warmup_multiplier": 2,
+                "weight_decay": 0.00011149669521255211
+            },
+            "loss": 0.07816578111340922
+        },
+        {
+            "config": {
+                "batch": 106,
+                "breadth": 2.5580647318008727,
+                "cutout_size": 1,
+                "first_conv_kernel": 0,
+                "learning_rate": 0.0066630916830712076,
+                "momentum": 0.5330936625317492,
+                "num_blocks": 4,
+                "stride_after_stem": 0,
+                "warmup_epochs": 4,
+                "warmup_multiplier": 6,
+                "weight_decay": 3.1417402366764494e-05
+            },
+            "loss": 0.07165465647714175
+        },
+        {
+            "config": {
+                "batch": 154,
+                "breadth": 4.406286753260138,
+                "cutout_size": 14,
+                "first_conv_kernel": 1,
+                "learning_rate": 0.1466249558424394,
+                "momentum": 0.2970751172345472,
+                "num_blocks": 2,
+                "stride_after_stem": 0,
+                "warmup_epochs": 2,
+                "warmup_multiplier": 5,
+                "weight_decay": 0.0002670406848592446
+            },
+            "loss": 0.04351730835743439
+        },
+        {
+            "config": {
+                "batch": 90,
+                "breadth": 3.754577890777141,
+                "cutout_size": 17,
+                "first_conv_kernel": 0,
+                "learning_rate": 0.21846023884742474,
+                "momentum": 0.3056662535363385,
+                "num_blocks": 2,
+                "stride_after_stem": 0,
+                "warmup_epochs": 5,
+                "warmup_multiplier": 2,
+                "weight_decay": 1.2867072540406574e-05
+            },
+            "loss": 0.054643427258107224
+        },
+        {
+            "config": {
+                "batch": 64,
+                "breadth": 4.031472544732712,
+                "cutout_size": 7,
+                "first_conv_kernel": 1,
+                "learning_rate": 0.22863935738689783,
+                "momentum": 0.6473824194636971,
+                "num_blocks": 3,
+                "stride_after_stem": 0,
+                "warmup_epochs": 3,
+                "warmup_multiplier": 2,
+                "weight_decay": 1.0036375497437621e-05
+            },
+            "loss": 0.054798315180108914
+        }
+    ]
+}
